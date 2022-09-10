@@ -17,19 +17,21 @@ if (close) {
 
 // single product slider
 
-let mainImage = document.getElementById("main-image")
-let smallImages = document.getElementsByClassName("small-image")
+function singleProductSlider() {
+    let mainImage = document.getElementById("main-image")
+    let smallImages = document.getElementsByClassName("small-image")
 
-smallImages[0].onclick = function () {
-    mainImage.src = smallImages[0].src;
-}
-smallImages[1].onclick = function () {
-    mainImage.src = smallImages[1].src;
-}
-smallImages[2].onclick = function () {
-    mainImage.src = smallImages[2].src;
-}
-smallImages[3].onclick = function () {
-    mainImage.src = smallImages[3].src;
-}
+    smallImages[0].onclick = function () {
+        mainImage.src = smallImages[0].src;
+    }
+    smallImages[1].onclick = function () {
+        mainImage.src = smallImages[1].src;
+    }
+    smallImages[2].onclick = function () {
+        mainImage.src = smallImages[2].src;
+    }
+    smallImages[3].onclick = function () {
+        mainImage.src = smallImages[3].src;
+    }
 
+}
